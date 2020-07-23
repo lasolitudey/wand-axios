@@ -86,7 +86,7 @@ export default class Restful extends Api {
   _setResponse (promise, resolve, reject) {
     return promise.then(
       (response) => {
-        if (response.data.status === true || response.data.message === 'Ok') {
+        if (response?.data?.status === true || response?.data?.message === 'Ok') {
           resolve(response.data.data)
         } else if (response.status === 204) {
           resolve(null)
