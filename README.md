@@ -12,7 +12,7 @@ $ npm install wand-axios --save
 ```
 ## Usage
 Wand-axios provides three functions, one for setting some default configuration named setDefaults and two for being decorator functions named RestfulApi and Request. One class is provided to initiate the request named Restful. The configurations in wand-axios are same as axios. 
-### init a http request:
+### init a http request
 ```ecmascript 6
 import { Restful, RestfulApi, Request } from '../../lib/wand-vue/src/api/restful'
 
@@ -85,10 +85,13 @@ setDefaults((defaults) => {
 })
 ```
 - In the setDefaults, you can change the defaults configuration which will take effect on all service. Based on this feature, you can configure global url prefix or logic which handle the error.
+## To Do
+- Improve the documentation
+- rewrite by typescript
 ## Related Efforts
 Wand-axios is used in our private projects, I'm sorry I can't show them to you. It's stable in our project, you can use it with no doubt.
 ## Maintainers
-- [@dunchi](https://github.com/duanchi) code the whole project
+- [@duanchi](https://github.com/duanchi) code the whole project
 - [@lasolitudey](https://github.com/lasolitudey) build the project and publish on npm
 ## License
 [MIT](./LICENSE)

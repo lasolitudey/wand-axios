@@ -1,13 +1,13 @@
 {
   "name": "wand-axios",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "new request tools based on axios",
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "lasolitude",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "axios": "^0.19.2",
     "typeof": "^1.0.0"
