@@ -187,7 +187,8 @@ class Api {
       prefix: options.prefix || protoOptions.prefix,
       method: options.method || protoOptions.method,
       contentType: options.contentType || protoOptions.contentType,
-      returnType: options.returnType || protoOptions.returnType
+      returnType: options.returnType || protoOptions.returnType,
+      headers: options.headers || protoOptions.headers || {}
     }
 
     this._init()
