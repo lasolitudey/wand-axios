@@ -90,6 +90,10 @@ setDefaults((defaults) => {
 - rewrite by typescript
 ## Related Efforts
 Wand-axios is used in our private projects, I'm sorry I can't show them to you. It's stable in our project, you can use it with no doubt.
+## update log
+- 1.0.1
+    - RestfulApi decorator now support set headers to request options.
+    - add index.d.ts to describe methods, methods can be highlighting.
 ## Maintainers
 - [@duanchi](https://github.com/duanchi) code the whole project
 - [@lasolitudey](https://github.com/lasolitudey) build the project and publish on npm
